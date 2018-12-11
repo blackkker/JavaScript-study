@@ -1,5 +1,5 @@
 function thorttle(handle,wait){
-    var _this,args;
+    var _this,_args;
     var lastime = 0;
     return function(){
         var nowtime = new Date.getTime();
